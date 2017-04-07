@@ -53,7 +53,7 @@ class Vtk5 < Formula
   option "without-legacy", "Disable legacy APIs"
 
   depends_on "cmake" => :build
-  depends_on "qt" => :recommended
+  depends_on "patmarion/director/qt" => :recommended
   depends_on :python => :recommended
   depends_on "hdf5" => :recommended
   depends_on "jpeg" => :recommended
