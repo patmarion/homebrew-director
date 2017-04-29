@@ -27,7 +27,8 @@ class Vtk5 < Formula
   head "http://vtk.org/VTK.git", :branch => "release-5.10"
 
   bottle do
-    root_url "https://s3.amazonaws.com/drake-provisioning/vtk5"
+    root_url "http://patmarion.com/bottles"
+    sha256 "ec8292979ab4fc87917786bfc4b475ece338c25bb6cec1c71027d9a6a136e2d3" => :sierra
     sha256 "ec8292979ab4fc87917786bfc4b475ece338c25bb6cec1c71027d9a6a136e2d3" => :el_capitan
     sha256 "0b114d5ef4e2ff9d5bb741d5e002711bede94088a881f48b175dc03d3bb3d8f8" => :yosemite
     sha256 "ef4c659ca350f986325fb7138ff91af666033510d2a9a956c1cdc9c2e35a9403" => :mavericks

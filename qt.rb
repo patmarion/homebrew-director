@@ -10,6 +10,7 @@ class Qt < Formula
 
   bottle do
     root_url "http://patmarion.com/bottles"
+    sha256 "f6dc9df6f78e1d8c12ebf961c8a9196885a1ee732eed098b2cbe8320f2d9a7a8" => :sierra
     sha256 "f6dc9df6f78e1d8c12ebf961c8a9196885a1ee732eed098b2cbe8320f2d9a7a8" => :el_capitan
     sha256 "323bcba88bd3600a4a5dc26d43602e57a71609f1d9a620b9d42b63426569e191" => :yosemite
     sha256 "157a2338190f124a7c9446ecafa6669f503ca4e0221fece620096832a767f852" => :mavericks
@@ -34,7 +35,7 @@ class Qt < Formula
   # Qt4 is dead upstream. We backported a build fix for 10.11 but do not
   # intend to keep rescuing it forever, including for macOS 10.12. Homebrew will
   # be migrating to Qt5 as widely as possible, which remains supported upstream.
-  depends_on MaximumMacOSRequirement => :el_capitan
+  depends_on MaximumMacOSRequirement => :sierra
 
   deprecated_option "qtdbus" => "with-dbus"
   deprecated_option "with-d-bus" => "with-dbus"
