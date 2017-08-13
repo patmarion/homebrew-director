@@ -6,8 +6,8 @@ class Vtk7 < Formula
 
   bottle do
     root_url "http://patmarion.com/bottles"
-    sha256 "94924d7cb37dbadf458d0671598c19428f041c5e95f2b2bdf0886d576c8d574e" => :sierra
-    sha256 "94924d7cb37dbadf458d0671598c19428f041c5e95f2b2bdf0886d576c8d574e" => :el_capitan
+    sha256 "2c3ad9f43e5200c91900395f5875a17713e203963508d73d29433217ffda5372" => :sierra
+    sha256 "2c3ad9f43e5200c91900395f5875a17713e203963508d73d29433217ffda5372" => :el_capitan
   end
 
   stable do
@@ -23,7 +23,7 @@ class Vtk7 < Formula
       sha256 "b243eb77567f822540e299a9ee44f4fd646abb6fa3b8e889af3e69f97ff3993e"
     end
   end
-  revision 1
+  revision 2
 
   option :cxx11
   option "with-examples",   "Compile and install various examples"

@@ -6,8 +6,8 @@ class Vtk7python3 < Formula
 
   bottle do
     root_url "http://patmarion.com/bottles"
-    sha256 "2149eec8ca0db0e9976b4abbf7be6f4bbe6d5b3deec341d2638066a60d8175d9" => :sierra
-    sha256 "2149eec8ca0db0e9976b4abbf7be6f4bbe6d5b3deec341d2638066a60d8175d9" => :el_capitan
+    sha256 "73c6bd95484034d414e007f8830e660d87149ff2219ac4b755bc0d0661c9de87" => :sierra
+    sha256 "73c6bd95484034d414e007f8830e660d87149ff2219ac4b755bc0d0661c9de87" => :el_capitan
   end
 
   stable do
@@ -23,7 +23,7 @@ class Vtk7python3 < Formula
       sha256 "b243eb77567f822540e299a9ee44f4fd646abb6fa3b8e889af3e69f97ff3993e"
     end
   end
-  revision 1
+  revision 2
 
   option :cxx11
   option "with-examples",   "Compile and install various examples"
