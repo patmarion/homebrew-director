@@ -37,8 +37,8 @@ class Vtk7 < Formula
   depends_on :x11 => :optional
   depends_on "patmarion/director/qt" => :recommended
 
-  depends_on :python => :recommended
-  depends_on :python3 => :optional
+  depends_on "python" => :recommended
+  depends_on "python3" => :optional
 
   depends_on "boost" => :optional
   depends_on "fontconfig" => :recommended

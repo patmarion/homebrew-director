@@ -55,7 +55,7 @@ class Vtk5 < Formula
 
   depends_on "cmake" => :build
   depends_on "patmarion/director/qt" => :recommended
-  depends_on :python => :recommended
+  depends_on "python" => :recommended
   depends_on "hdf5" => :recommended
   depends_on "jpeg" => :recommended
   depends_on "libpng" => :recommended
